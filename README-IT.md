@@ -2,7 +2,7 @@
 
 ## Informazioni su RubyBill
 
-RubyBill e' una piccola libreria che si basa sulle API
+RubyBill e' una piccola libreria che funge da wrapper per le API
 di [Datev Koinos SuperBill](https://developer.datev.it/Docs/SuperBill)
 per la fatturazione elettronica italiana.
 
