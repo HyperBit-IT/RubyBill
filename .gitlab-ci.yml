@@ -4,7 +4,13 @@ default:
   before_script:
     - gem install bundler -v 2.3.26
     - bundle install
+    - mkdir ~/.gem
+    - echo "---" > ~/.gem/credentials
+    - |
+      echo "${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/rubygems: '${CI_JOB_TOKEN}'" >> ~/.gem/credentials
+    - chmod 0600 ~/.gem/credentials
 
 Build:
   script:
-    - bundle exec rake
+    - gem build *.gemspec
+    - gem push *.gem --host ${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/rubygems
