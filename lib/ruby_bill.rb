@@ -2,7 +2,7 @@
 
 require_relative "ruby_bill/version"
 
-require 'ruby_bill/sb_archives'
+require "ruby_bill/SuperBill/sb_articles"
 
 module Ruby_bill
   class Error < StandardError; end
@@ -15,6 +15,11 @@ module Ruby_bill
     yield self
   end
 
+  # @author: Francesco Masala <fmasala@hyperbit.it>
+  # @since: 2023-01-21
+  # @version: 0.1.0
+  # @return [JSON]
+  # SuperBill Archives
   def self.get_archives
     sb_archives = SBArchives.new
     sb_archives.get_archives
