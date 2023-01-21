@@ -1,0 +1,9 @@
+class CFUserTenants
+  def list_active_tenants: -> untyped
+
+  def list_tenants: -> untyped
+
+  def list_tenants_by_id: -> untyped
+
+  def sb_headers: -> untyped
+end
