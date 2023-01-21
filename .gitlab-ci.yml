@@ -13,4 +13,3 @@ default:
 Build:
   script:
     - gem build *.gemspec
-    - gem push *.gem --host ${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/rubygems

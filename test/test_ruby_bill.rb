@@ -2,9 +2,9 @@
 
 require "test_helper"
 
-class TestRubyBill < Minitest::Test
+class TestRuby_bill < Minitest::Test
   def test_that_it_has_a_version_number
-    refute_nil ::RubyBill::VERSION
+    refute_nil ::Ruby_bill::VERSION
   end
 
   def test_it_does_something_useful

@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in RubyBill.gemspec
+# Specify your gem's dependencies in ruby_bill.gemspec
 gemspec
 
 gem "rake", "~> 13.0"
@@ -10,3 +10,5 @@ gem "rake", "~> 13.0"
 gem "minitest", "~> 5.0"
 
 gem "rubocop", "~> 1.21"
+
+gem "http", "~> 5.0"

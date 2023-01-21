@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/RubyBill/version"
+require_relative "lib/ruby_bill/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "RubyBill"
-  spec.version = RubyBill::VERSION
+  spec.name = "ruby_bill"
+  spec.version = Ruby_bill::VERSION
   spec.authors = ["Francesco Masala"]
   spec.email = ["fmasala@hyperbit.it"]
 
@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["https://gitlab.com"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://gitlab.com/HyperBit-IT/rubybill"
@@ -34,6 +34,7 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   # spec.add_dependency "example-gem", "~> 1.0"
+  spec.add_dependency "http", "~> 5.0"
 
   # For more information and examples about making a new gem, check out our
   # guide at: https://bundler.io/guides/creating_gem.html
