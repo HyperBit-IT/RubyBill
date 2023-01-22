@@ -4,7 +4,6 @@
 module RubyBill
   # SuperBill Archives
   module SBArchives
-    include http
 
     # List all archives
     # @return [JSON] List of archives
