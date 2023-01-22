@@ -1,0 +1,9 @@
+module RubyBill
+  module CFUserTenants
+    def list_active_tenants: -> JSON
+
+    def list_tenants: -> JSON
+
+    def list_tenants_by_id: -> JSON
+  end
+end
