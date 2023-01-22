@@ -3,7 +3,6 @@
 # CFUserTenants
 module RubyBill
   module CFUserTenants
-    include http
 
     def list_tenants
       url = URI("https://superbill.datev.it/v10/user-tenants")
