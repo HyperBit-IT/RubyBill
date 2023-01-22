@@ -1,5 +1,0 @@
-module SuperBill
-  module SBHealth
-    def self.health_check: -> String
-  end
-end

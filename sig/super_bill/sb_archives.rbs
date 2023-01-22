@@ -1,5 +1,0 @@
-module SuperBill
-  module SBArchives
-    def self.list_archives: -> JSON
-  end
-end

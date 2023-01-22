@@ -1,4 +1,0 @@
-class CFApiError
-  @code: untyped
-  @message: untyped
-end
