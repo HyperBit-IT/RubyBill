@@ -19,7 +19,7 @@ jobs:
     - name: Set up Ruby 2.6
       uses: ruby/setup-ruby@v1
       with:
-        ruby-version: 3.2.x
+        ruby-version: 3.2.0
         bundler-cache: true
 
     - name: Publish to GPR
