@@ -1,13 +1,9 @@
-module Ruby_bill
+module RubyBill
   VERSION: String
 
   # See the writing guide of rbs: https://github.com/ruby/rbs#guides
   attr_accessor self.bearer: String
   attr_accessor self.tenant_id: String
-
-  def self.get_archive: -> JSON
-
-  def self.get_archives: -> JSON
 
   def config: -> untyped
 end

@@ -1,0 +1,7 @@
+module RubyBill
+  module SBArchives
+    def self.list_archive: -> JSON
+
+    def self.list_archives: -> JSON
+  end
+end

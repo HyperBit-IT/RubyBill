@@ -6,33 +6,41 @@
   <component name="ChangeListManager">
     <list default="true" id="bad3da27-16b1-410d-98e4-982c11fde463" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/demo.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ruby_bill/cf_user_tenants.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ruby_bill/sb_archives.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ruby_bill/sb_articles.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ruby_bill/sb_clients.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ruby_bill/sb_documents.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ruby_bill/sb_element.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ruby_bill/sb_health.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ruby_bill/sb_legal_nature.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ruby_bill/sb_nations.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ruby_bill/sb_payment_mode.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ruby_bill/sb_payment_type.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ruby_bill/sb_registers.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ruby_bill/sb_unit_measure.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ruby_bill/sb_vat_codes.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/ruby_bill/sb_vectors.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitlab-ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.gitlab-ci.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rubybill/models_cf.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rubybill/models_sb.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rubybill/sb_archives.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/rubybill/sb_health.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sig/ruby_bill/cf_models.rbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sig/ruby_bill/sb_archives.rbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sig/super_bill/sb_archives.rbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sig/super_bill/sb_health.rbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RubyBill.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/RubyBill.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/RubyBill.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ruby_bill.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/RubyBill/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ruby_bill/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sig/RubyBill.rbs" beforeDir="false" afterPath="$PROJECT_DIR$/sig/ruby_bill.rbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_RubyBill.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_ruby_bill.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ruby_bill.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/ruby_bill.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ruby_bill/Config/_CFModels.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ruby_bill/Config/cf_user_tenants.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubybill/cf_user_tenants.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ruby_bill/IntegraSDI/_ISModels.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ruby_bill/IntegraSDI/is_agreements.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubybill/is_agreements.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ruby_bill/IntegraSDI/is_invoices.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubybill/is_invoices.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ruby_bill/IntegraSDI/is_received_invoices.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubybill/is_received_invoices.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ruby_bill/SuperBill/_SBModels.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ruby_bill/SuperBill/sb_archives.rb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ruby_bill/SuperBill/sb_articles.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubybill/sb_articles.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ruby_bill/SuperBill/sb_clients.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubybill/sb_clients.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ruby_bill/SuperBill/sb_documents.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubybill/sb_documents.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ruby_bill/SuperBill/sb_element.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubybill/sb_element.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ruby_bill/SuperBill/sb_health.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubybill/models_is.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ruby_bill/SuperBill/sb_legal_nature.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubybill/sb_legal_nature.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ruby_bill/SuperBill/sb_nations.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubybill/sb_nations.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ruby_bill/SuperBill/sb_payment_mode.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubybill/sb_payment_mode.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ruby_bill/SuperBill/sb_payment_type.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubybill/sb_payment_type.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ruby_bill/SuperBill/sb_registers.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubybill/sb_registers.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ruby_bill/SuperBill/sb_unit_measure.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubybill/sb_unit_measure.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ruby_bill/SuperBill/sb_vat_codes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubybill/sb_vat_codes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ruby_bill/SuperBill/sb_vectors.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubybill/sb_vectors.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/ruby_bill/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/rubybill/version.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sig/ruby_bill.rbs" beforeDir="false" afterPath="$PROJECT_DIR$/sig/ruby_bill.rbs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +50,11 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="RBS Class" />
         <option value="Ruby Class" />
         <option value="Ruby File" />
+        <option value="RBS Class" />
+        <option value="RBS Module" />
+        <option value="Ruby Module" />
       </list>
     </option>
   </component>
@@ -67,24 +77,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ruby.rails.projectView.checked": "true",
-    "ruby.structure.view.model.defaults.configured": "true",
-    "settings.editor.selected.configurable": "configurable.group.appearance",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ruby.rails.projectView.checked&quot;: &quot;true&quot;,
+    &quot;ruby.structure.view.model.defaults.configured&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Settings.Markdown&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/ruby_bill" />
+      <recent name="$PROJECT_DIR$/lib/ruby_bill/Config" />
+      <recent name="$PROJECT_DIR$/lib/ruby_bill/SuperBill" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Ruby Console.IRB: RubyBill">
     <configuration type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
       <module name="RubyBill" />
       <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
@@ -115,9 +132,28 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="IRB: RubyBill" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
+      <module name="RubyBill" />
+      <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <IRB_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <IRB_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <IRB_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <IRB_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="/usr/bin/irb" />
+      <IRB_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <IRB_RUN_CONFIG NAME="CONSOLE_TYPE" VALUE="IRB" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Test::Unit/Shoulda/Minitest.test_it_does_something_useful" />
+        <item itemvalue="Ruby Console.IRB: RubyBill" />
       </list>
     </recent_temporary>
   </component>
@@ -130,7 +166,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674314620630</updated>
-      <workItem from="1674314622369" duration="7439000" />
+      <workItem from="1674314622369" duration="10781000" />
+      <workItem from="1674388480891" duration="37000" />
+      <workItem from="1674406976775" duration="4016000" />
     </task>
     <task id="LOCAL-00001" summary="Updated CI">
       <created>1674315484312</created>
@@ -146,7 +184,63 @@
       <option name="project" value="LOCAL" />
       <updated>1674315814019</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updated README.md">
+      <created>1674324305218</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674324305218</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added the ruby classed for every section of the SuperBill documentation">
+      <created>1674324350153</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674324350153</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Updated README">
+      <created>1674325335278</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1674325335278</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Moved SuperBill directory">
+      <created>1674330126537</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674330126537</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Added SuperBill config directory">
+      <created>1674330154835</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1674330154835</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added empty IntegraSDI files">
+      <created>1674330184203</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1674330184203</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added ruby SIG files">
+      <created>1674330204128</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1674330204128</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added SuperBill DataModel">
+      <created>1674330221298</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1674330221298</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,12 +249,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Updated CI" />
     <MESSAGE value="Added Gitlab packages" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Gitlab packages" />
+    <MESSAGE value="Updated README.md" />
+    <MESSAGE value="Added the ruby classed for every section of the SuperBill documentation" />
+    <MESSAGE value="Updated README" />
+    <MESSAGE value="Moved SuperBill directory" />
+    <MESSAGE value="Added SuperBill config directory" />
+    <MESSAGE value="Added empty IntegraSDI files" />
+    <MESSAGE value="Added ruby SIG files" />
+    <MESSAGE value="Added SuperBill DataModel" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added SuperBill DataModel" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/RubyBill@test_it_does_something_useful.rcov" NAME="test_it_does_something_useful Coverage Results" MODIFIED="1674315202833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyBill" />
+    <SUITE FILE_PATH="coverage/RubyBill@demo.rcov" NAME="demo Coverage Results" MODIFIED="1674409457986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyBill" />
+    <SUITE FILE_PATH="coverage/RubyBill@IRB__RubyBill.rcov" NAME="IRB: RubyBill Coverage Results" MODIFIED="1674409627937" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="RubyBill" />
   </component>
 </project>
